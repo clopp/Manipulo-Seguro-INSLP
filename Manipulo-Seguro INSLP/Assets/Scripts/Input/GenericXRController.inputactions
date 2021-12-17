@@ -1,0 +1,98 @@
+{
+    "name": "GenericXRController",
+    "maps": [
+        {
+            "name": "RightController",
+            "id": "243bb138-9c92-4c05-856c-88821e645fc1",
+            "actions": [
+                {
+                    "name": "Grip",
+                    "type": "PassThrough",
+                    "id": "daee4e22-1405-4c33-8dbf-4906ae773156",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger",
+                    "type": "PassThrough",
+                    "id": "325eb63f-87d0-4f2b-81b1-ef04b94314c5",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e6a43b17-c0af-489a-9f10-591268d3764c",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8b1a3928-544e-4d0c-a707-58245a3df826",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "LeftController",
+            "id": "8b2d8871-a20b-4a1e-88f1-44663d804810",
+            "actions": [
+                {
+                    "name": "Grip",
+                    "type": "PassThrough",
+                    "id": "a2961cf5-2230-46f2-ba7f-aed682057edd",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger",
+                    "type": "PassThrough",
+                    "id": "3f0717b0-8d32-4dcf-b60e-840bc35516f8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ea7b461d-922b-48ec-9612-020fe1cf3961",
+                    "path": "<XRController>{LeftHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3debb9c6-ecb5-447e-8514-5657638045f1",
+                    "path": "<XRController>{LeftHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
